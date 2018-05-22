@@ -295,7 +295,7 @@
 \begin{resumo}
 Com o passar dos anos, o avanço da tecnologia e a expansão do mercado de jogos, tornou-se cada vez mais necessária a reutilização de códigos e automatização de rotinas mais utilizadas no desenvolvimento de jogos como renderização, controle das entradas do usuário e gerenciamento de recursos.
 \textit{Game Engines} ou Motores de Jogos são softwares que cuidam dessas rotinas, oferecendo mecanismos genéricos e reaproveitáveis para diminuir o custo de produção e simplificar as tarefas durante o desenvolvimento de jogos. 
-Esta monografia apresenta o desenvolvimento de uma \textit{game engine} chamada Pulsar Game Engine, que implementa os sistemas básicos necessários para o desenvolvimento de jogos em duas dimensões de qualquer gênero, fornecendo assim uma ferramenta de fácil customização e expansão para o desenvolvimento de jogos mais complexos. Esta monografia também descreve o funcionamento dos sistemas básicos e essenciais de uma \textit{game engine}, assim como o funcionamento da Pulsar Game Engine.
+Esta monografia apresenta o desenvolvimento de uma \textit{game engine} chamada Pulsar Game Engine, que implementa os sistemas básicos necessários para o desenvolvimento de jogos em duas dimensões de qualquer gênero, fornecendo assim uma ferramenta de fácil customização e expansão para o desenvolvimento de jogos mais complexos. 
 
  \textbf{Palavras-chaves}: Computação gráfica, Desenvolvimento de jogos, Game engine.
 \end{resumo}
@@ -355,7 +355,7 @@ Game Engines are software that take care of these routines by offering generic a
 % Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
 % ----------------------------------------------------------
 \chapter[Introdução]{Introdução}
-Os primeiros jogos de vídeo game foram produzidos por equipes pequenas, com gráficos minimalistas, utilizando linguagens de baixo nível e com praticamente nenhum reaproveitamento de código devido as limitações de hardware e ao alto custo de produção da época. Com o passar dos anos, hardwares mais potentes, equipes maiores e a busca por gráficos e comportamentos mais realistas, tornou-se inviável o desenvolvimento de jogos do zero sem uma ferramenta que reaproveitasse os elementos em comum entre os jogos, esses softwares são chamados de Motores de jogos ou \textit{Game Engines}. 
+Os primeiros jogos de vídeo game foram produzidos por equipes pequenas, com gráficos minimalistas, utilizando linguagens de baixo nível e com praticamente nenhum reaproveitamento de código devido as limitações de hardware e ao alto custo de produção da época. Com o passar dos anos, hardwares mais potentes, equipes maiores e a busca por gráficos e comportamentos mais realistas, tornou-se inviável o desenvolvimento de jogos do zero sem uma ferramenta que reaproveitasse os elementos em comum entre os jogos, esses softwares são chamados de Motores de jogos ou \textit{Game Engines}. Geralmente \textit{Game Engines} são vistas como softwares extremamente complexos e de alta performance que oferencem dezenas de recursos para o desenvolvimento (como a Unreal Engine e a Unity por exemplo), porem a maioria desses recursos acabam servido apenas como ferramentas auxiliares e não fazem parte do produto final, dessa forma é possivel desenvolver uma \textit{Game Engine} simples e amigável com muito menos código e mais simples de se utilizar.
 % ----------------------------------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -365,7 +365,7 @@ Os primeiros jogos de vídeo game foram produzidos por equipes pequenas, com gr�
 %%%%%%%%%%%%%%%%%%%%%%
 
 \section{Motivação}
-Apesar de existirem várias ferramentas que auxiliam no desenvolvimento, muitas delas são pagas, pouco customizáveis ou muito complexas para serem utilizadas por desenvolvedores iniciantes.
+Apesar de existirem várias ferramentas que auxiliam no desenvolvimento, muitas delas são pagas, pouco customizáveis ou muito complexas para serem utilizadas por desenvolvedores iniciantes ou que não possuem conhecimento profundo sobre computação gráfica.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %
@@ -374,7 +374,7 @@ Apesar de existirem várias ferramentas que auxiliam no desenvolvimento, muitas 
 %%%%%%%%%%%%%%%%%%%%%%
 
 \section{Objetivo}
-O objetivo deste trabalho é desenvolver um conjunto de ferramentas de código aberto que facilite o desenvolvimento de jogos oferecendo flexibilidade para que o usuário possa desenvolver jogos de qualquer estilo e facilidade de extensão.
+O objetivo deste trabalho é descrever o funcionamento dos sistemas básicos e essenciais de uma \textit{game engine} e desenvolver um conjunto de ferramentas de código aberto que facilite o desenvolvimento de jogos oferecendo flexibilidade para que o usuário possa desenvolver jogos de qualquer estilo e com facilidade de extensão.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %
@@ -709,8 +709,8 @@ No capítulo \ref{cap: desenvolvimento} estão descritas as ferramentas e técni
 
 \section{Projeto}
 
-As tecnologias utilizadas nesse projeto foram escolhidas visando a maior portabilidade possível sem que fosse necessário recompilar a \textit{engine}, para isso foram escolhidas as linguagens Java e JavaScript para o desenvolvimento do núcleo e dos \textit{scripts} executados durante o jogo. Devido a complexidade do projeto algumas bibliotecas auxiliares foram escolhidas para agilizar o desenvolvimento, para controle sobre o hardware gráfico e som foi escolhido uma adaptação das bibliotecas OpenGL e OpenAL para Java chamada LWJGL (\textit{Lightweight Java Game Library}) e para as simulações de física em duas dimensões foi escolhida a biblioteca Box2D. \\
-A \textit{game engine} recebeu o nome de Pulsar Game Engine e seu código fonte está disponivel no link \textit{https://github.com/Netoaoh/pulsar-game-engine} sob a licença GPL-3.0.
+As tecnologias utilizadas nesse projeto foram escolhidas visando a maior portabilidade possível sem que fosse necessário recompilar a \textit{engine}, para isso foram escolhidas as linguagens Java e JavaScript para o desenvolvimento do núcleo e dos \textit{scripts} executados durante o jogo. Devido a complexidade do projeto algumas bibliotecas auxiliares foram escolhidas para agilizar o desenvolvimento, para controle sobre o hardware gráfico e som foi escolhido uma adaptação das bibliotecas OpenGL e OpenAL para Java chamada LWJGL (\textit{Lightweight Java Game Library}), para as simulações de física em duas dimensões foi escolhida a biblioteca Box2D e para compilação e gerenciamento das dependencias foi utilizado Gradle. \\
+A \textit{game engine} recebeu o nome de Pulsar Game Engine e seu código fonte está disponível no link \textit{https://github.com/Netoaoh/pulsar-game-engine} sob a licença GPL-3.0.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %
@@ -774,7 +774,7 @@ Os componentes disponíveis por padrão na Pulsar Game Engine são:
 \item \textit{Transform}: Componente que armazena as informações de posição, rotação e escala de um objeto (este componente é padrão e obrigatório para todos os objetos em cena).
 \end{itemize}
 
-Novos componentes podem ser criados e integrados a \textit{engine} simplismente estendendo a classe \textit{Component}.
+Novos componentes podem ser criados e integrados a \textit{engine} estendendo a classe \textit{Component}.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %
@@ -785,14 +785,7 @@ Novos componentes podem ser criados e integrados a \textit{engine} simplismente 
 \section{Lógica em tempo de jogo}
 
 Para controlar a lógica executada durante o jogo a Pulsar Game Engine possui um sistema de \textit{scripts} que interpreta a linguagem JavaScript em tempo de execução utilizando o motor ja imbutido na linguagem Java. \\
-O sistema de script expõe algumas das classes Java necessárias para a manipulação de objetos e componentes e alguns métodos que são executados em momentos específicos do fluxo de execução do jogo. Esses métodos são:
-
-\begin{itemize}
-\item \textit{Awake}: Executado quando o componente é adicionado ao \textit{Game Object}.
-\item \textit{Start}: Executado quando a cena é carregada e exibida.
-\item \textit{Update}: Executado a cada iteração do fluxo de execução.
-\item \textit{OnCollisionEnter}: Executado quando há uma colisão entre dois ou mais objetos (executado apenas caso os dois objetos possuam um componente de física).
-\end{itemize}
+O sistema de script expõe os métodos \textit{Awake}, \textit{Start}, \textit{Update}, \textit{FixedUpdate} e \textit{OnCollisionEnter} para serem manipulados no \textit{script}.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %
@@ -860,7 +853,7 @@ A etapa de pós renderização é utilizada para atualizações que necessitam s
 Etapa que finaliza o frame limpado os \textit{buffers} de renderização da janela e liberando recursos que não serão reutilizados no próximo frame (como objetos e componentes removidos da cena).
 
 \subsection{Finalização da Engine}
-Caso seja enviado um comando de finalização todos os recursos alocados pela engine são liberados, garantindo a finalização do programa de maneira segura e sem desperdício de memória (\textit{memory leaks}). \\
+Caso seja enviado um comando de finalização todos os recursos alocados pela engine são liberados, garantindo a finalização do programa de maneira segura e sem desperdício de memória (\textit{memory leaks}). 
 
 
 %%%%%%%%%%%%%%%%%%%%%%
@@ -871,7 +864,7 @@ Caso seja enviado um comando de finalização todos os recursos alocados pela en
 
 \section{Utilização}
 
-A Pulsar Game Engine foi desenvolvida utilizando a ferramenta \textit{Gradle} para compilar e gerenciar as dependencias do projeto, desta forma para criar um novo jogo utilizando a \textit{engine}, basta utilizar o template disponível nos exemplos do repositório (figura \ref{figura: estrutura-pastas}), definir os objetos iniciais de cada cena disponível no jogo e caso necessário estender ou reimplementar os sistemas internos da \textit{engine}. Toda a lógica executada durante o jogo deve ser implementada em \textit{scripts} utilizando a linguagem JavaScript.
+A Pulsar Game Engine foi desenvolvida utilizando a ferramenta \textit{Gradle} para compilar e gerenciar as dependencias do projeto, desta forma para criar um novo jogo utilizando a \textit{engine}, basta utilizar o template disponível nos exemplos do repositório (figura \ref{figura:estrutura-pastas}), definir os objetos iniciais de cada cena disponível no jogo e caso necessário estender ou reimplementar os sistemas internos da \textit{engine}. Toda a lógica executada durante o jogo deve ser implementada em \textit{scripts} utilizando a linguagem JavaScript.
 
 \begin{figure}[H]
 \centering
@@ -889,8 +882,10 @@ A Pulsar Game Engine foi desenvolvida utilizando a ferramenta \textit{Gradle} pa
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \chapter{Conclusão} \label{cap: conclusao}
-O Desenvolvimento de uma \textit{game engine} é uma tarefa difícil e trabalhosa que traz muitos benefícios pelo fato de serem implementações abstratas que servem de base para vários jogos, diminuindo assim o custo e o tempo de produção. O fato das \textit{game engines} serem organizadas em camadas facilita a visualização de dependências e customização de seus componentes internos, desta forma pode-se escolher quais camadas implementar de acordo com o objetivo final. A Pulsar Game Engine implementa os componentes básicos necessários para a criação de jogos e uma arquitetura de objetos baseada em componentes, desta forma a customização da \textit{engine} é feita de maneira simples, adicionando e removendo componentes conforme a necessidade, resultando em um software polido e enxuto. \\
-Apesar de se tratar de uma engine simples, a Pulsar Game Engine consegue produzir jogos como clássicos do Super Nintendo e Mega Drive, alem de possuir o código fonte aberto e de fácil compreensão, facilitando sua expansão para o desenvolvimento de jogos mas complexos.
+
+
+O Desenvolvimento de uma \textit{game engine} é uma tarefa difícil e trabalhosa que traz muitos benefícios pelo fato de serem implementações abstratas que servem de base para vários jogos, diminuindo assim o custo e o tempo de produção. O fato das \textit{game engines} serem organizadas em camadas facilita a visualização de dependências e customização de seus componentes internos, desta forma pode-se escolher quais camadas implementar de acordo com o objetivo final. A Pulsar Game Engine implementa os componentes básicos necessários para a criação de jogos e uma arquitetura de objetos baseada em componentes, desta forma a customização da \textit{engine} é feita de maneira simples, adicionando componentes e alterando o seu funcionamento conforme a necessidade, resultando em um software polido e enxuto. \\
+Apesar de se tratar de uma engine simples, a Pulsar Game Engine consegue produzir jogos de genero variado sem a necessidade de conhecimentos avançados de programação e computação gráfica.
 
 
 % ----------------------------------------------------------

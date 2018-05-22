@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{19}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objetivo}{19}{section.1.2}
 \contentsline {section}{\numberline {1.3}Objetivos Gerais}{19}{section.1.3}
-\contentsline {section}{\numberline {1.4}Objetivos Espec\IeC {\'\i }ficos}{19}{section.1.4}
+\contentsline {section}{\numberline {1.4}Objetivos Espec\IeC {\'\i }ficos}{20}{section.1.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Game Engine}}{21}{chapter.2}
 \contentsline {section}{\numberline {2.1}Arquitetura de uma Game Engine}{21}{section.2.1}
@@ -35,19 +35,19 @@
 \contentsline {section}{\numberline {3.2}Arquitetura}{33}{section.3.2}
 \contentsline {section}{\numberline {3.3}Componentes}{34}{section.3.3}
 \contentsline {section}{\numberline {3.4}L\IeC {\'o}gica em tempo de jogo}{35}{section.3.4}
-\contentsline {section}{\numberline {3.5}T\IeC {\'e}cnicas de Renderiza\IeC {\c c}\IeC {\~a}o}{35}{section.3.5}
+\contentsline {section}{\numberline {3.5}T\IeC {\'e}cnicas de Renderiza\IeC {\c c}\IeC {\~a}o}{36}{section.3.5}
 \contentsline {section}{\numberline {3.6}Fluxo de Execu\IeC {\c c}\IeC {\~a}o}{36}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Inicializa\IeC {\c c}\IeC {\~a}o}{36}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.1}Inicializa\IeC {\c c}\IeC {\~a}o}{37}{subsection.3.6.1}
 \contentsline {subsection}{\numberline {3.6.2}Atualiza\IeC {\c c}\IeC {\~a}o de entradas}{37}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Atualiza\IeC {\c c}\IeC {\~a}o de componentes}{37}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Renderiza\IeC {\c c}\IeC {\~a}o}{37}{subsection.3.6.4}
-\contentsline {subsection}{\numberline {3.6.5}P\IeC {\'o}s Renderiza\IeC {\c c}\IeC {\~a}o}{38}{subsection.3.6.5}
-\contentsline {subsection}{\numberline {3.6.6}Finaliza\IeC {\c c}\IeC {\~a}o do Frame}{39}{subsection.3.6.6}
-\contentsline {subsection}{\numberline {3.6.7}Finaliza\IeC {\c c}\IeC {\~a}o da Engine}{39}{subsection.3.6.7}
-\contentsline {section}{\numberline {3.7}Utiliza\IeC {\c c}\IeC {\~a}o}{39}{section.3.7}
+\contentsline {subsection}{\numberline {3.6.3}Atualiza\IeC {\c c}\IeC {\~a}o de componentes}{38}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Renderiza\IeC {\c c}\IeC {\~a}o}{38}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.5}P\IeC {\'o}s Renderiza\IeC {\c c}\IeC {\~a}o}{39}{subsection.3.6.5}
+\contentsline {subsection}{\numberline {3.6.6}Finaliza\IeC {\c c}\IeC {\~a}o do Frame}{40}{subsection.3.6.6}
+\contentsline {subsection}{\numberline {3.6.7}Finaliza\IeC {\c c}\IeC {\~a}o da Engine}{40}{subsection.3.6.7}
+\contentsline {section}{\numberline {3.7}Utiliza\IeC {\c c}\IeC {\~a}o}{40}{section.3.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{41}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{43}{chapter.4}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{43}{section*.12}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{45}{section*.12}
