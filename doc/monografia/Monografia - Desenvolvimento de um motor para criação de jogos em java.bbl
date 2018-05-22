@@ -1,0 +1,37 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.5 }
+
+\bibitem[Brito 2011]{brito}
+\abntrefinfo{Brito}{BRITO}{2011}
+{BRITO, A. \emph{Blender 3D: jogos e animações interativas}. São Paulo:
+  Novatec, 2011.}
+
+\bibitem[Eberly 2001]{eberly}
+\abntrefinfo{Eberly}{EBERLY}{2001}
+{EBERLY, D.~H. \emph{3D game engine design: a practical approach to real-time
+  computer graphics}. São Francisco: Morgan Kaufmann, 2001.}
+
+\bibitem[Gregory 2011]{gregory}
+\abntrefinfo{Gregory}{GREGORY}{2011}
+{GREGORY, J. \emph{Game engine architecture}. Wellesley, Massachusetts: A. K.
+  Peters, Ltd, 2011.}
+
+\bibitem[Hiebert 2007]{hiebert}
+\abntrefinfo{Hiebert}{HIEBERT}{2007}
+{HIEBERT, G. \emph{OpenAL Programmer's Guide}. [S.l.: s.n.], 2007.}
+
+\bibitem[Sellers 2011]{sellers}
+\abntrefinfo{Sellers}{SELLERS}{2011}
+{SELLERS, G. \emph{OpenGL SuperBible 5th Edition: Comprehensive Tutorial and
+  Reference}. New Jersey: Addison-Wesley, 2011.}
+
+\bibitem[Shreiner 2013]{shreiner}
+\abntrefinfo{Shreiner}{SHREINER}{2013}
+{SHREINER, D.~S. \emph{OpenGL Programming Guide 8th Edition: The Official Guide
+  to Learning OpenGL}. New Jersey: Addison-Wesley, 2013.}
+
+\end{thebibliography}
