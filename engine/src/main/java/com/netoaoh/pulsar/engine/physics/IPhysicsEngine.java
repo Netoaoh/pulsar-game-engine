@@ -12,7 +12,7 @@ public abstract class IPhysicsEngine {
     }
 
     public abstract void initialize();
-    public abstract void update();
+    public abstract void fixedUpdate();
     public abstract void shutdown();
 
     public abstract void removeBody(Body body);

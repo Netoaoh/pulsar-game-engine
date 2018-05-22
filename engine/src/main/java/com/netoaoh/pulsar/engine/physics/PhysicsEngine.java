@@ -57,7 +57,7 @@ public class PhysicsEngine extends IPhysicsEngine {
 		bodies.add(box);*/
 	}
 
-	public void update() {
+	public void fixedUpdate() {
 		world.step(/*Time.deltaTime*/ 1 / 30.0f, 8, 3);
 
 		//world.drawDebugData();

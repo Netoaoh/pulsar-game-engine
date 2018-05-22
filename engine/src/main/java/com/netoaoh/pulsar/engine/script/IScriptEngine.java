@@ -14,6 +14,7 @@ public abstract class IScriptEngine {
     public abstract void awake();
     public abstract void start();
     public abstract void update();
+    public abstract void fixedUpdate();
     public abstract void onCollisionEnter(Collision collision);
     public abstract void removeAll();
     public abstract int addScript(JSScript script);

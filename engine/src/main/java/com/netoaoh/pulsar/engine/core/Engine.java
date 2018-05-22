@@ -35,7 +35,8 @@ public class Engine extends IEngine {
 
 	public void fixedUpdate(){
 
-        physicsEngine.update();
+        physicsEngine.fixedUpdate();
+        scriptEngine.fixedUpdate();
         getGameInstance().fixedUpdate();
 	}
 

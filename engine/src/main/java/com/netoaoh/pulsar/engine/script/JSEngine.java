@@ -95,6 +95,20 @@ public class JSEngine extends IScriptEngine {
 		}
 	}
 
+	public void fixedUpdate() {
+		for (int i = 0; i < scripts.size(); i++) {
+			try {
+				engine.setContext(scripts.get(i).getContext());
+				invocable = (Invocable) engine;
+				invocable.invokeFunction("fixedUpdate");
+			} catch (NoSuchMethodException e) {
+				//Log.getInstance().fatalError(ErrorCode.SCRIPT_INVALID_METHOD, "Não foi possivel localizar o metodo Update() no script '" + scriptNames.get(contexts.size() - 1) + "'.", e.getMessage());
+			} catch (ScriptException e) {
+				//Log.getInstance().fatalError(ErrorCode.SCRIPT_CALL_FAILURE, "Falha ao executar metodo Update() no script '" + scriptNames.get(i) + "'.", e.getMessage());
+			}
+		}
+	}
+
     public void onCollisionEnter(Collision collision){
 
 		for (int i = 0; i < scripts.size(); i++) {
