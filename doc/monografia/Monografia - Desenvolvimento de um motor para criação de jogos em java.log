@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2017.10.21)  21 OCT 2017 15:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2018.1.6)  22 MAY 2018 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,7 +1161,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 [19
 
 
-] [20] <imagens/arch.png, id=250, 726.7953pt x 865.5537pt>
+] [20] <imagens/arch.png, id=262, 726.7953pt x 865.5537pt>
 File: imagens/arch.png Graphic file (type png)
 
 <use imagens/arch.png>
@@ -1185,21 +1185,21 @@ Underfull \vbox (badness 3668) has occurred while \output is active []
                                                   \fi \fi 
 l.461 
        <./imagens/arch.png>]
-<imagens/arch-sdk.png, id=263, 726.7953pt x 60.7068pt>
+<imagens/arch-sdk.png, id=275, 726.7953pt x 60.7068pt>
 File: imagens/arch-sdk.png Graphic file (type png)
 
 <use imagens/arch-sdk.png>
 Package pdftex.def Info: imagens/arch-sdk.png used on input line 465.
 (pdftex.def)             Requested size: 455.24408pt x 38.02501pt.
 
-<imagens/arch-layer.png, id=265, 725.109pt x 68.8974pt>
+<imagens/arch-layer.png, id=277, 725.109pt x 68.8974pt>
 File: imagens/arch-layer.png Graphic file (type png)
 
 <use imagens/arch-layer.png>
 Package pdftex.def Info: imagens/arch-layer.png used on input line 477.
 (pdftex.def)             Requested size: 455.24408pt x 43.25629pt.
 
-<imagens/arch-core.png, id=267, 726.0726pt x 96.8418pt>
+<imagens/arch-core.png, id=279, 726.0726pt x 96.8418pt>
 File: imagens/arch-core.png Graphic file (type png)
 
 <use imagens/arch-core.png>
@@ -1224,14 +1224,14 @@ l.498
                                                   \fi \fi 
 l.498 
        <./imagens/arch-sdk.png> <./imagens/arch-layer.png> <./imagens/arch-core
-.png>] <imagens/arch-res.png, id=274, 726.7953pt x 98.769pt>
+.png>] <imagens/arch-res.png, id=286, 726.7953pt x 98.769pt>
 File: imagens/arch-res.png Graphic file (type png)
 
 <use imagens/arch-res.png>
 Package pdftex.def Info: imagens/arch-res.png used on input line 502.
 (pdftex.def)             Requested size: 455.24408pt x 61.86609pt.
 
-<imagens/arch-low.png, id=276, 525.965pt x 247.92625pt>
+<imagens/arch-low.png, id=288, 525.965pt x 247.92625pt>
 File: imagens/arch-low.png Graphic file (type png)
 
 <use imagens/arch-low.png>
@@ -1250,14 +1250,14 @@ l.531
                                                   \fi \fi 
 l.531 
        <./imagens/arch-res.png> <./imagens/arch-low.png>] [25]
-<imagens/arch-scene.png, id=292, 386.44376pt x 98.3675pt>
+<imagens/arch-scene.png, id=305, 386.44376pt x 98.3675pt>
 File: imagens/arch-scene.png Graphic file (type png)
 
 <use imagens/arch-scene.png>
 Package pdftex.def Info: imagens/arch-scene.png used on input line 551.
 (pdftex.def)             Requested size: 284.52756pt x 72.42606pt.
 
-<imagens/arch-visual.png, id=294, 392.46625pt x 143.53625pt>
+<imagens/arch-visual.png, id=307, 392.46625pt x 143.53625pt>
 File: imagens/arch-visual.png Graphic file (type png)
 
 <use imagens/arch-visual.png>
@@ -1273,14 +1273,14 @@ Underfull \vbox (badness 3460) has occurred while \output is active []
                                                   \fi \fi 
 l.568 
        <./imagens/arch-scene.png>]
-<imagens/arch-front.png, id=301, 407.5225pt x 146.5475pt>
+<imagens/arch-front.png, id=313, 407.5225pt x 146.5475pt>
 File: imagens/arch-front.png Graphic file (type png)
 
 <use imagens/arch-front.png>
 Package pdftex.def Info: imagens/arch-front.png used on input line 575.
 (pdftex.def)             Requested size: 284.52756pt x 102.32314pt.
 
-<imagens/arch-phys.png, id=303, 290.08376pt x 243.91125pt>
+<imagens/arch-phys.png, id=315, 290.08376pt x 243.91125pt>
 File: imagens/arch-phys.png Graphic file (type png)
 
 <use imagens/arch-phys.png>
@@ -1302,14 +1302,14 @@ l.592
                                                   \fi \fi 
 l.592 
        <./imagens/arch-visual.png> <./imagens/arch-front.png>]
-<imagens/arch-hid.png, id=309, 154.5775pt x 202.7575pt>
+<imagens/arch-hid.png, id=321, 154.5775pt x 202.7575pt>
 File: imagens/arch-hid.png Graphic file (type png)
 
 <use imagens/arch-hid.png>
 Package pdftex.def Info: imagens/arch-hid.png used on input line 599.
 (pdftex.def)             Requested size: 142.26378pt x 186.6227pt.
 
-<imagens/arch-audio.png, id=311, 156.585pt x 195.73125pt>
+<imagens/arch-audio.png, id=323, 156.585pt x 195.73125pt>
 File: imagens/arch-audio.png Graphic file (type png)
 
 <use imagens/arch-audio.png>
@@ -1328,7 +1328,7 @@ l.616
                                                   \fi \fi 
 l.616 
        <./imagens/arch-phys.png> <./imagens/arch-hid.png>]
-<imagens/arch-network.png, id=319, 147.55125pt x 202.7575pt>
+<imagens/arch-network.png, id=331, 147.55125pt x 202.7575pt>
 File: imagens/arch-network.png Graphic file (type png)
 
 <use imagens/arch-network.png>
@@ -1344,7 +1344,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \fi 
 l.633 
        <./imagens/arch-audio.png>]
-<imagens/arch-gameplay.png, id=327, 810.02625pt x 257.96375pt>
+<imagens/arch-gameplay.png, id=339, 810.02625pt x 257.96375pt>
 File: imagens/arch-gameplay.png Graphic file (type png)
 
 <use imagens/arch-gameplay.png>
@@ -1355,7 +1355,7 @@ Overfull \hbox (28.69684pt too wide) in paragraph at lines 640--641
  [][] 
  []
 
-<imagens/arch-heranca.png, id=329, 434.62375pt x 255.95625pt>
+<imagens/arch-heranca.png, id=341, 434.62375pt x 255.95625pt>
 File: imagens/arch-heranca.png Graphic file (type png)
 
 <use imagens/arch-heranca.png>
@@ -1377,7 +1377,7 @@ l.658
                                                   \fi \fi 
 l.658 
        <./imagens/arch-network.png> <./imagens/arch-gameplay.png>]
-<imagens/arch-comp.png, id=336, 426.59375pt x 334.24875pt>
+<imagens/arch-comp.png, id=348, 426.59375pt x 334.24875pt>
 File: imagens/arch-comp.png Graphic file (type png)
 
 <use imagens/arch-comp.png>
@@ -1399,7 +1399,7 @@ l.676
                                                   \fi \fi 
 l.676 
        <./imagens/arch-heranca.png> <./imagens/arch-comp.png>]
-<imagens/arch-game.png, id=344, 812.03375pt x 184.69pt>
+<imagens/arch-game.png, id=356, 812.03375pt x 184.69pt>
 File: imagens/arch-game.png Graphic file (type png)
 
 <use imagens/arch-game.png>
@@ -1417,63 +1417,105 @@ Overfull \hbox (28.69684pt too wide) in paragraph at lines 680--681
                                                   \fi \fi 
 l.702 \chapter
               {Pulsar Game Engine} \label{cap: desenvolvimento} <./imagens/arch
--game.png>] <imagens/gameloop.png, id=351, 494.84875pt x 642.4pt>
+-game.png>]
+<imagens/subengine-interface.png, id=364, 444.66125pt x 171.64125pt>
+File: imagens/subengine-interface.png Graphic file (type png)
+
+<use imagens/subengine-interface.png>
+Package pdftex.def Info: imagens/subengine-interface.png used on input line 729
+.
+(pdftex.def)             Requested size: 341.43306pt x 131.79486pt.
+
+<imagens/codigo-main.png, id=365, 569.12625pt x 379.4175pt>
+File: imagens/codigo-main.png Graphic file (type png)
+
+<use imagens/codigo-main.png>
+Package pdftex.def Info: imagens/codigo-main.png used on input line 738.
+(pdftex.def)             Requested size: 341.43306pt x 227.62909pt.
+ [33
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.743 
+       <./imagens/subengine-interface.png>] [34pdfTeX warning (ext4): destinati
+on with the same identifier (name{figure.3.19}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.771 \item \textit
+                   {Camera}: Componente que define a posição e as propried...
+ <./imagens/codigo-main.png>] [35]
+<imagens/gameloop.png, id=382, 494.84875pt x 642.4pt>
 File: imagens/gameloop.png Graphic file (type png)
 
 <use imagens/gameloop.png>
-Package pdftex.def Info: imagens/gameloop.png used on input line 730.
+Package pdftex.def Info: imagens/gameloop.png used on input line 819.
 (pdftex.def)             Requested size: 341.43306pt x 443.23688pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33
-
-]
-[34pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
-8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.745 
-       <./imagens/gameloop.png>]
-<imagens/update.png, id=363, 512.91624pt x 407.5225pt>
-File: imagens/update.png Graphic file (type png)
-
-<use imagens/update.png>
-Package pdftex.def Info: imagens/update.png used on input line 749.
-(pdftex.def)             Requested size: 341.43306pt x 271.27887pt.
- <imagens/render.png, id=365, 523.9575pt x 752.8125pt>
-File: imagens/render.png Graphic file (type png)
-
-<use imagens/render.png>
-Package pdftex.def Info: imagens/render.png used on input line 761.
-(pdftex.def)             Requested size: 341.43306pt x 490.5744pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-19}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.766 
-       <./imagens/update.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [36pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.772 
+l.828 \subsection
+                 {Atualização de entradas} <./imagens/gameloop.png>]
+<imagens/update.png, id=391, 512.91624pt x 407.5225pt>
+File: imagens/update.png Graphic file (type png)
+
+<use imagens/update.png>
+Package pdftex.def Info: imagens/update.png used on input line 838.
+(pdftex.def)             Requested size: 341.43306pt x 271.27887pt.
+ <imagens/render.png, id=393, 523.9575pt x 752.8125pt>
+File: imagens/render.png Graphic file (type png)
+
+<use imagens/render.png>
+Package pdftex.def Info: imagens/render.png used on input line 850.
+(pdftex.def)             Requested size: 341.43306pt x 490.5744pt.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.855 
+       <./imagens/update.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.861 
        <./imagens/render.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 774--775
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
 
  []
 
-[37] [38
 
-]
+LaTeX Warning: Reference `figura: estrutura-pastas' on page 39 undefined on inp
+ut line 874.
+
+<imagens/estrutura-pastas.png, id=408, 314.17375pt x 327.2225pt>
+File: imagens/estrutura-pastas.png Graphic file (type png)
+
+<use imagens/estrutura-pastas.png>
+Package pdftex.def Info: imagens/estrutura-pastas.png used on input line 879.
+(pdftex.def)             Requested size: 341.43306pt x 355.6319pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+[40pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.891 \chapter
+              {Conclusão} \label{cap: conclusao} <./imagens/estrutura-pastas.p
+ng>]
 (./Monografia - Desenvolvimento de um motor para criação de jogos em java.b
 bl
 (./Monografia - Desenvolvimento de um motor para criação de jogos em java.b
@@ -1482,7 +1524,9 @@ rf)
 \openout5 = `"Monografia - Desenvolvimento de um motor para criação de jogo
 s em java.brf"'.
 
- [39] [40
+ [41
+
+] [42
 
 ]
 
@@ -1495,7 +1539,7 @@ No file "Monografia - Desenvolvimento de um motor para criação de jogos em
 java".ind.
 
 AED: lastpage setting LastPage
-[41]
+[43]
 \tf@lof=\write6
 \openout6 = `"Monografia - Desenvolvimento de um motor para criação de jogo
 s em java.lof"'.
@@ -1504,48 +1548,72 @@ s em java.lof"'.
 \openout7 = `"Monografia - Desenvolvimento de um motor para criação de jogo
 s em java.toc"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 817.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 817.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 923.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 923.
 
 (./Monografia - Desenvolvimento de um motor para criação de jogos em java.a
 ux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 817.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 817.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 923.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 923.
 Package rerunfilecheck Info: File `"Monografia - Desenvolvimento de um motor pa
 ra criação de jogos em java".brf' has not changed.
 (rerunfilecheck)             Checksum: 2BB5BB9249062F3102763D0C07CAC1C6;292.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 817.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 923.
  ) 
 Here is how much of TeX's memory you used:
- 14088 strings out of 493089
- 212177 string characters out of 6134841
- 369809 words of memory out of 5000000
- 17065 multiletter control sequences out of 15000+600000
- 92890 words of font info for 135 fonts, out of 8000000 for 9000
+ 14154 strings out of 493089
+ 213265 string characters out of 6134843
+ 370141 words of memory out of 5000000
+ 17092 multiletter control sequences out of 15000+600000
+ 94104 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,36p,921b,519s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
-m/lmsy10.pfb>
+ 41i,12n,36p,921b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.3.5.7} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.5.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.5.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.5.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.5.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.5.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.5.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
+e1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
+m/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/
+lmsy10.pfb>
 Output written on "Monografia - Desenvolvimento de um motor para criação de
- jogos em java.pdf" (43 pages, 1764168 bytes).
+ jogos em java.pdf" (45 pages, 1834319 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
- 125 named destinations out of 1000 (max. 500000)
- 31701 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 573 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 31748 words of extra memory for PDF output out of 35830 (max. 10000000)
 

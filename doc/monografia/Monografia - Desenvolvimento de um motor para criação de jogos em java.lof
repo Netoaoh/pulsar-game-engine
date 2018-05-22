@@ -16,6 +16,9 @@
 \contentsline {figure}{\numberline {15}{\ignorespaces Base de Gameplay - arquitetura baseada em heran\IeC {\c c}a}}{31}{figure.2.15}
 \contentsline {figure}{\numberline {16}{\ignorespaces Base de Gameplay - arquitetura baseada em componentes}}{31}{figure.2.16}
 \contentsline {figure}{\numberline {17}{\ignorespaces Sistemas Espec\IeC {\'\i }ficos para Jogos}}{32}{figure.2.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Loop principal}}{34}{figure.3.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Ciclo de atualiza\IeC {\c c}\IeC {\~a}o dos componentes}}{35}{figure.3.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Ciclo de renderiza\IeC {\c c}\IeC {\~a}o dos componentes}}{36}{figure.3.20}
+\contentsline {figure}{\numberline {18}{\ignorespaces Classe base de sub-sistema}}{33}{figure.3.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces C\IeC {\'o}digo da classe principal}}{34}{figure.3.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Loop principal}}{36}{figure.3.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Ciclo de atualiza\IeC {\c c}\IeC {\~a}o dos componentes}}{37}{figure.3.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Ciclo de renderiza\IeC {\c c}\IeC {\~a}o dos componentes}}{38}{figure.3.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Estrutura de pastas de um projeto utilizando a Pulsar Game Engine}}{40}{figure.3.23}

@@ -32,18 +32,22 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Pulsar Game Engine}}{33}{chapter.3}
 \contentsline {section}{\numberline {3.1}Projeto}{33}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}T\IeC {\'e}cnicas de Renderiza\IeC {\c c}\IeC {\~a}o}{33}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Fluxo de Execu\IeC {\c c}\IeC {\~a}o}{33}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Inicializa\IeC {\c c}\IeC {\~a}o}{34}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Atualiza\IeC {\c c}\IeC {\~a}o de entradas}{34}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Atualiza\IeC {\c c}\IeC {\~a}o de componentes}{35}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Renderiza\IeC {\c c}\IeC {\~a}o}{35}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}P\IeC {\'o}s Renderiza\IeC {\c c}\IeC {\~a}o}{36}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Finaliza\IeC {\c c}\IeC {\~a}o do Frame}{37}{subsection.3.2.6}
-\contentsline {subsection}{\numberline {3.2.7}Finaliza\IeC {\c c}\IeC {\~a}o da Engine}{37}{subsection.3.2.7}
+\contentsline {section}{\numberline {3.2}Arquitetura}{33}{section.3.2}
+\contentsline {section}{\numberline {3.3}Componentes}{34}{section.3.3}
+\contentsline {section}{\numberline {3.4}L\IeC {\'o}gica em tempo de jogo}{35}{section.3.4}
+\contentsline {section}{\numberline {3.5}T\IeC {\'e}cnicas de Renderiza\IeC {\c c}\IeC {\~a}o}{35}{section.3.5}
+\contentsline {section}{\numberline {3.6}Fluxo de Execu\IeC {\c c}\IeC {\~a}o}{36}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Inicializa\IeC {\c c}\IeC {\~a}o}{36}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Atualiza\IeC {\c c}\IeC {\~a}o de entradas}{37}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Atualiza\IeC {\c c}\IeC {\~a}o de componentes}{37}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Renderiza\IeC {\c c}\IeC {\~a}o}{37}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.5}P\IeC {\'o}s Renderiza\IeC {\c c}\IeC {\~a}o}{38}{subsection.3.6.5}
+\contentsline {subsection}{\numberline {3.6.6}Finaliza\IeC {\c c}\IeC {\~a}o do Frame}{39}{subsection.3.6.6}
+\contentsline {subsection}{\numberline {3.6.7}Finaliza\IeC {\c c}\IeC {\~a}o da Engine}{39}{subsection.3.6.7}
+\contentsline {section}{\numberline {3.7}Utiliza\IeC {\c c}\IeC {\~a}o}{39}{section.3.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{39}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{41}{chapter.4}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{41}{section*.12}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{43}{section*.12}

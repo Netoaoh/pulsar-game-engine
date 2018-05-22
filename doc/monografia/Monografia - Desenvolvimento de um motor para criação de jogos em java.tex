@@ -45,7 +45,7 @@
 \titulo{Desenvolvimento de um motor para criação de jogos em java}
 \autor{Paulo Maria Neto}
 \local{Araraquara/SP}
-\data{dezembro, 2017}
+\data{junho, 2018}
 \orientador{Profª. Mª. Daniele Colturato}
 \instituicao{%
   UNIP - Universidade Paulista}
@@ -235,7 +235,7 @@
     \vspace*{\fill}
    \end{center}
         
-   Trabalho aprovado. \imprimirlocal, 05 de dezembro de 2017:
+   Trabalho aprovado. \imprimirlocal, 01 de junho de 2018:
 
    \assinatura{\textbf{\imprimirorientador} \\ Orientador - Universidade Paulista - UNIP} 
    \assinatura{\textbf{Prof.} \\ Universidade Paulista - UNIP}
@@ -365,7 +365,7 @@ Os primeiros jogos de vídeo game foram produzidos por equipes pequenas, com gr�
 %%%%%%%%%%%%%%%%%%%%%%
 
 \section{Motivação}
-Apesar de existirem várias ferramentas que auxiliam no desenvolvimento, muitas delas são pagas, pouco customizáveis ou oferecem apenas interface textual para o desenvolvimento, o que dificulta o trabalho entre designers que não possuem conhecimento sobre programação e desenvolvedores iniciantes.
+Apesar de existirem várias ferramentas que auxiliam no desenvolvimento, muitas delas são pagas, pouco customizáveis ou muito complexas para serem utilizadas por desenvolvedores iniciantes.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %
@@ -398,7 +398,7 @@ Desenvolver um motor que auxilie no desenvolvimento de jogos utilizando Java e J
 \item Implementação de suporte a simulação de física 2D utilizando a biblioteca Box2D
 \item Implementação de controle sobre as entradas do usuário via teclado, mouse e controles USB
 \item Implementação de suporte a scripts desenvolvidos em JavaScript para o controle de lógica em tempo de jogo
-\item Desenvolvimento de uma interface para criação, edição e teste de jogos
+\item Desenvolvimento de um template base para a criação de jogos sem a necessidade de se alterar diretamente o código fonte da engine
 \end{itemize}
 
 Os elementos disponíveis e as ferramentas utilizadas para o desenvolvimento de uma \textit{game engine} variam de acordo com o resultado que se deseja obter. 
@@ -710,10 +710,99 @@ No capítulo \ref{cap: desenvolvimento} estão descritas as ferramentas e técni
 \section{Projeto}
 
 As tecnologias utilizadas nesse projeto foram escolhidas visando a maior portabilidade possível sem que fosse necessário recompilar a \textit{engine}, para isso foram escolhidas as linguagens Java e JavaScript para o desenvolvimento do núcleo e dos \textit{scripts} executados durante o jogo. Devido a complexidade do projeto algumas bibliotecas auxiliares foram escolhidas para agilizar o desenvolvimento, para controle sobre o hardware gráfico e som foi escolhido uma adaptação das bibliotecas OpenGL e OpenAL para Java chamada LWJGL (\textit{Lightweight Java Game Library}) e para as simulações de física em duas dimensões foi escolhida a biblioteca Box2D. \\
-A \textit{game engine} recebeu o nome de Pulsar Game Engine e foi desenvolvida seguindo o modelo baseado em componentes afim de facilitar a extensão e a implementação de novas funcionalidades. 
+A \textit{game engine} recebeu o nome de Pulsar Game Engine e seu código fonte está disponivel no link \textit{https://github.com/Netoaoh/pulsar-game-engine} sob a licença GPL-3.0.
 
-\subsection{Técnicas de Renderização}
-Com a utilização dos \textit{shaders} é possível implementar diversas técnicas de renderização, para este projeto foi escolhida a técnica \textit{multi-pass forward rendering}, que consiste em renderizar os objetos várias vezes aplicando diferentes \textit{shaders} (um shader para cada ponto de luz presente na cena) e posteriormente combinando as imagens utilizando a técnica de mesclagem aditiva (\textit{Additive Blending}) para formar a imagem final. Esta técnica foi escolhida devido a facilidade de implementação e a performance superior em cenas simples comparado a outras técnicas.
+%%%%%%%%%%%%%%%%%%%%%%
+%
+%		Arquitetura
+%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Arquitetura}
+
+A Pulsar Game Engine possui uma arquitetura baseada em \textit{Game Objects} e \textit{Game Components}, onde os \textit{Game Objects} funcionam como containers e os \textit{Game Components} definem as propriedades e o comportamento desses objetos dentro do jogo, com isso é possível criar uma variação grande de objetos utilizando o mesmo código. \\
+Para facilitar a extensão e customização da \textit{engine}, todos os sub-sistemas são implementados em cima de classes abstratas, que definem os métodos principais para o funcionamento correto da \textit{engine}. Essas classes possuem o prefixo "I" seguido do nome do sub-sistema (figura \ref{figura:subengine-interface}) e são instanciados e registrados antes da inicialização do \textit{loop} principal (figura \ref{figura:codigo-main}), desta forma é possivel alterar o comportamento da engine sem que seja necessário alterar a biblioteca principal.
+
+\begin{figure}[H]
+\centering
+\caption{Classe base de sub-sistema}
+\includegraphics[width=12cm]{imagens/subengine-interface.png}
+\\
+\small{Fonte: Elaborado pelo autor}
+\label{figura:subengine-interface}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Código da classe principal}
+\includegraphics[width=12cm]{imagens/codigo-main.png}
+\\
+\small{Fonte: Elaborado pelo autor}
+\label{figura:codigo-main}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%
+%		Componentes
+%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Componentes}
+
+Componentes ou \textit{Game Components} são classes que definem as propriedades e o comportamento dos objetos em jogo, cada \textit{Game Object} pode conter um ou mais componentes. \\
+Cada Componente possui um ou mais metodos que são executados em momentos específicos do fluxo de execução da \textit{engine}. Esses métodos são:
+
+\begin{itemize}
+\item \textit{Awake}: Executado quando o componente é adicionado ao \textit{Game Object}.
+\item \textit{Start}: Executado quando a cena é carregada e exibida.
+\item \textit{Update}: Executado a cada iteração do fluxo de execução.
+\item \textit{FixedUpdate}: Executado a cada iteração da engine de física (30 vezes por segundo).
+\item \textit{Render}: Executado 60 vezes por segundo.
+\item \textit{OnCollisionEnter}: Executado quando há uma colisão entre dois ou mais objetos.
+\end{itemize}
+
+Os componentes disponíveis por padrão na Pulsar Game Engine são:
+
+\begin{itemize}
+\item \textit{AnimationComponent}: Componente utilizado para controlar animações de \textit{sprites}. 
+\item \textit{AudioListenerComponent}: Componente utilizado como receptor de som dentro da \textit{engine}.
+\item \textit{AudioSourceComponent}: Componente utilizado como fonte de som dentro da \textit{engine}.
+\item \textit{BoxCollider}: Componente que define e controla a caixa de colisão de um objeto.
+\item \textit{Camera}: Componente que define a posição e as propriedade de visão dentro da \textit{engine}.
+\item \textit{ScriptComponent}: Componente que provê controle sobre a lógica de um objeto em tempo de execução.
+\item \textit{SpriteRenderer}: Componente que possibilita a renderização de um \textit{sprite}.
+\item \textit{Transform}: Componente que armazena as informações de posição, rotação e escala de um objeto (este componente é padrão e obrigatório para todos os objetos em cena).
+\end{itemize}
+
+Novos componentes podem ser criados e integrados a \textit{engine} simplismente estendendo a classe \textit{Component}.
+
+%%%%%%%%%%%%%%%%%%%%%%
+%
+%		Lógica em tempo de jogo
+%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Lógica em tempo de jogo}
+
+Para controlar a lógica executada durante o jogo a Pulsar Game Engine possui um sistema de \textit{scripts} que interpreta a linguagem JavaScript em tempo de execução utilizando o motor ja imbutido na linguagem Java. \\
+O sistema de script expõe algumas das classes Java necessárias para a manipulação de objetos e componentes e alguns métodos que são executados em momentos específicos do fluxo de execução do jogo. Esses métodos são:
+
+\begin{itemize}
+\item \textit{Awake}: Executado quando o componente é adicionado ao \textit{Game Object}.
+\item \textit{Start}: Executado quando a cena é carregada e exibida.
+\item \textit{Update}: Executado a cada iteração do fluxo de execução.
+\item \textit{OnCollisionEnter}: Executado quando há uma colisão entre dois ou mais objetos (executado apenas caso os dois objetos possuam um componente de física).
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%
+%		Técnicas de Renderização
+%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Técnicas de Renderização}
+
+Com a utilização dos \textit{shaders} é possível implementar diversas técnicas de renderização, para este projeto foi escolhida a técnica \textit{multi-pass forward rendering}, que consiste em renderizar os objetos várias vezes aplicando diferentes \textit{shaders} (um shader para cada efeito ou ponto de luz presente na cena) e posteriormente combinando as imagens utilizando a técnica de mesclagem aditiva (\textit{Additive Blending}) para formar a imagem final. Esta técnica foi escolhida devido a facilidade de implementação e a performance superior em cenas simples comparado a outras técnicas.
 
 %%%%%%%%%%%%%%%%%%%%%%
 %
@@ -774,7 +863,24 @@ Etapa que finaliza o frame limpado os \textit{buffers} de renderização da jane
 Caso seja enviado um comando de finalização todos os recursos alocados pela engine são liberados, garantindo a finalização do programa de maneira segura e sem desperdício de memória (\textit{memory leaks}). \\
 
 
-No futuro serão implementadas as funcionalidades da interface de usuário, onde será possível desenvolver os cenários e editar os objetos de forma visual, iluminação dinâmica, efeitos de pós renderização editáveis via script e a exportação dos jogos para as plataformas Windows, Linux e MacOSX.
+%%%%%%%%%%%%%%%%%%%%%%
+%
+%		Utilização
+%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Utilização}
+
+A Pulsar Game Engine foi desenvolvida utilizando a ferramenta \textit{Gradle} para compilar e gerenciar as dependencias do projeto, desta forma para criar um novo jogo utilizando a \textit{engine}, basta utilizar o template disponível nos exemplos do repositório (figura \ref{figura: estrutura-pastas}), definir os objetos iniciais de cada cena disponível no jogo e caso necessário estender ou reimplementar os sistemas internos da \textit{engine}. Toda a lógica executada durante o jogo deve ser implementada em \textit{scripts} utilizando a linguagem JavaScript.
+
+\begin{figure}[H]
+\centering
+\caption{Estrutura de pastas de um projeto utilizando a Pulsar Game Engine}
+\includegraphics[width=12cm]{imagens/estrutura-pastas.png}
+\\
+\small{Fonte: Elaborado pelo autor}
+\label{figura:estrutura-pastas}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
