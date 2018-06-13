@@ -1,13 +1,5 @@
-/**
- * Project: PulsarGameEngine
- * File: GameObject.java
- * Author: Paulo Maria Neto
- * Created: 04/07/16
- * --------------------------------------------------------
- * Copyright (c) 2016 - Design Coding, All Rights Reserved.
- */
 
-package com.netoaoh.pulsar.launcher;
+package com.netoaoh.pulsar.template;
 
 import com.netoaoh.pulsar.engine.audio.AudioEngine;
 import com.netoaoh.pulsar.engine.core.Engine;

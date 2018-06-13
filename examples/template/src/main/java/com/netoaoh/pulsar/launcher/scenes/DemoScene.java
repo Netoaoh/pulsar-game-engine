@@ -1,4 +1,4 @@
-package com.netoaoh.pulsar.launcher.scenes;
+package com.netoaoh.pulsar.template.scenes;
 
 import com.netoaoh.pulsar.engine.components.*;
 import com.netoaoh.pulsar.engine.core.GameObject;
