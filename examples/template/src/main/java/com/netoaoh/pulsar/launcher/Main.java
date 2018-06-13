@@ -13,11 +13,9 @@ import com.netoaoh.pulsar.engine.audio.AudioEngine;
 import com.netoaoh.pulsar.engine.core.Engine;
 import com.netoaoh.pulsar.engine.core.KeyCode;
 import com.netoaoh.pulsar.engine.graphics.RenderingEngine;
-import com.netoaoh.pulsar.engine.math.Vector2f;
-import com.netoaoh.pulsar.engine.physics.Physics;
 import com.netoaoh.pulsar.engine.physics.PhysicsEngine;
 import com.netoaoh.pulsar.engine.script.JSEngine;
-import com.netoaoh.pulsar.launcher.scenes.GameScene;
+import com.netoaoh.pulsar.launcher.scenes.DemoScene;
 
 import java.io.File;
 
@@ -37,8 +35,6 @@ public class Main {
         // Create a new instance of engine
         Engine engine = new Engine();
 
-        Physics.gravity = new Vector2f(0.0f, 0.0f);
-
         // Setup sub engines
         engine.setRenderingEngine(new RenderingEngine());
         engine.setAudioEngine(new AudioEngine());
@@ -47,11 +43,11 @@ public class Main {
         engine.setExitKeycode(KeyCode.KEY_ESCAPE);
 
         // Adding scenes to game
-        engine.getGameInstance().addScene(new GameScene());
-        engine.getGameInstance().loadScene("Game Scene");
+        engine.getGameInstance().addScene(new DemoScene());
+        engine.getGameInstance().loadScene("Demo Scene");
 
         // Starting the engine
-		engine.run("Game", 800, 600, false);
+		engine.run("Demo Game", 800, 600, false);
 
 		// Finishing application
         System.exit(EXIT_WITHOUT_ERROR);

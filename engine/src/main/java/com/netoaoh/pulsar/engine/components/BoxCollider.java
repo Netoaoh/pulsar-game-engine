@@ -47,7 +47,7 @@ public class BoxCollider extends Collider {
 
 	public void fixedUpdate(){
 		super.fixedUpdate();
-		gameObject.transform.setPos(new Vector3f(rigidbody.getBody().getPosition().x, rigidbody.getBody().getPosition().y, 0));
+		//gameObject.transform.setPos(new Vector3f(rigidbody.getBody().getPosition().x, rigidbody.getBody().getPosition().y, 0));
 	}
 
 	public void update(){

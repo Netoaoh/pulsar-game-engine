@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2018.1.6)  22 MAY 2018 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2018.1.6)  26 MAY 2018 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1133,396 +1133,434 @@ l.221
 
 ] [5] [6
 
-] [7] [8
+]
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+
+ []
+
+[7
+
+] [8
 
 ] [9] [10
 
 ] [11] [12
 
+] [13] [14
+
 ]
 (./Monografia - Desenvolvimento de um motor para criação de jogos em java.l
-of) [13] [14
+of) [15] [16
 
-] [15
+] [17
 
-] [16
+] [18
 
 ]
 (./Monografia - Desenvolvimento de um motor para criação de jogos em java.t
-oc [17]) [18]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 396.
+oc [19]) [20]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 407.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 396.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 407.
 
 Underfull \vbox (badness 7099) has occurred while \output is active []
 
- [19
+ [21
 
 
 ]
-[20] <imagens/arch.png, id=266, 726.7953pt x 865.5537pt>
+[22] <imagens/arch.png, id=277, 726.7953pt x 865.5537pt>
 File: imagens/arch.png Graphic file (type png)
 
 <use imagens/arch.png>
-Package pdftex.def Info: imagens/arch.png used on input line 453.
+Package pdftex.def Info: imagens/arch.png used on input line 464.
 (pdftex.def)             Requested size: 483.69684pt x 576.04825pt.
 
-Overfull \hbox (28.69684pt too wide) in paragraph at lines 453--454
+Overfull \hbox (28.69684pt too wide) in paragraph at lines 464--465
  [][] 
  []
 
 
 Underfull \vbox (badness 3668) has occurred while \output is active []
 
- [21
+ [23
 
 ]
-[22pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.461 
+l.472 
        <./imagens/arch.png>]
-<imagens/arch-sdk.png, id=279, 726.7953pt x 60.7068pt>
+<imagens/arch-sdk.png, id=291, 726.7953pt x 60.7068pt>
 File: imagens/arch-sdk.png Graphic file (type png)
 
 <use imagens/arch-sdk.png>
-Package pdftex.def Info: imagens/arch-sdk.png used on input line 465.
+Package pdftex.def Info: imagens/arch-sdk.png used on input line 476.
 (pdftex.def)             Requested size: 455.24408pt x 38.02501pt.
 
-<imagens/arch-layer.png, id=281, 725.109pt x 68.8974pt>
+<imagens/arch-layer.png, id=293, 725.109pt x 68.8974pt>
 File: imagens/arch-layer.png Graphic file (type png)
 
 <use imagens/arch-layer.png>
-Package pdftex.def Info: imagens/arch-layer.png used on input line 477.
+Package pdftex.def Info: imagens/arch-layer.png used on input line 488.
 (pdftex.def)             Requested size: 455.24408pt x 43.25629pt.
 
-<imagens/arch-core.png, id=283, 726.0726pt x 96.8418pt>
+<imagens/arch-core.png, id=295, 726.0726pt x 96.8418pt>
 File: imagens/arch-core.png Graphic file (type png)
 
 <use imagens/arch-core.png>
-Package pdftex.def Info: imagens/arch-core.png used on input line 490.
+Package pdftex.def Info: imagens/arch-core.png used on input line 501.
 (pdftex.def)             Requested size: 455.24408pt x 60.71953pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.498 
+l.509 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.498 
+l.509 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.498 
+l.509 
        <./imagens/arch-sdk.png> <./imagens/arch-layer.png> <./imagens/arch-core
-.png>] <imagens/arch-res.png, id=290, 726.7953pt x 98.769pt>
+.png>] <imagens/arch-res.png, id=301, 726.7953pt x 98.769pt>
 File: imagens/arch-res.png Graphic file (type png)
 
 <use imagens/arch-res.png>
-Package pdftex.def Info: imagens/arch-res.png used on input line 502.
+Package pdftex.def Info: imagens/arch-res.png used on input line 513.
 (pdftex.def)             Requested size: 455.24408pt x 61.86609pt.
 
-<imagens/arch-low.png, id=292, 525.965pt x 247.92625pt>
+<imagens/arch-low.png, id=303, 525.965pt x 247.92625pt>
 File: imagens/arch-low.png Graphic file (type png)
 
 <use imagens/arch-low.png>
-Package pdftex.def Info: imagens/arch-low.png used on input line 517.
+Package pdftex.def Info: imagens/arch-low.png used on input line 528.
 (pdftex.def)             Requested size: 341.43306pt x 160.94965pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.531 
+l.542 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.531 
-       <./imagens/arch-res.png> <./imagens/arch-low.png>] [25]
-<imagens/arch-scene.png, id=309, 386.44376pt x 98.3675pt>
+l.542 
+       <./imagens/arch-res.png> <./imagens/arch-low.png>] [27]
+<imagens/arch-scene.png, id=320, 386.44376pt x 98.3675pt>
 File: imagens/arch-scene.png Graphic file (type png)
 
 <use imagens/arch-scene.png>
-Package pdftex.def Info: imagens/arch-scene.png used on input line 551.
+Package pdftex.def Info: imagens/arch-scene.png used on input line 562.
 (pdftex.def)             Requested size: 284.52756pt x 72.42606pt.
 
-<imagens/arch-visual.png, id=311, 392.46625pt x 143.53625pt>
+<imagens/arch-visual.png, id=322, 392.46625pt x 143.53625pt>
 File: imagens/arch-visual.png Graphic file (type png)
 
 <use imagens/arch-visual.png>
-Package pdftex.def Info: imagens/arch-visual.png used on input line 563.
+Package pdftex.def Info: imagens/arch-visual.png used on input line 574.
 (pdftex.def)             Requested size: 284.52756pt x 104.06657pt.
 
 Underfull \vbox (badness 3460) has occurred while \output is active []
 
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.568 
+l.579 
        <./imagens/arch-scene.png>]
-<imagens/arch-front.png, id=317, 407.5225pt x 146.5475pt>
+<imagens/arch-front.png, id=328, 407.5225pt x 146.5475pt>
 File: imagens/arch-front.png Graphic file (type png)
 
 <use imagens/arch-front.png>
-Package pdftex.def Info: imagens/arch-front.png used on input line 575.
+Package pdftex.def Info: imagens/arch-front.png used on input line 586.
 (pdftex.def)             Requested size: 284.52756pt x 102.32314pt.
 
-<imagens/arch-phys.png, id=319, 290.08376pt x 243.91125pt>
+<imagens/arch-phys.png, id=330, 290.08376pt x 243.91125pt>
 File: imagens/arch-phys.png Graphic file (type png)
 
 <use imagens/arch-phys.png>
-Package pdftex.def Info: imagens/arch-phys.png used on input line 587.
+Package pdftex.def Info: imagens/arch-phys.png used on input line 598.
 (pdftex.def)             Requested size: 199.16928pt x 167.46898pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.592 
+l.603 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.592 
+l.603 
        <./imagens/arch-visual.png> <./imagens/arch-front.png>]
-<imagens/arch-hid.png, id=325, 154.5775pt x 202.7575pt>
+<imagens/arch-hid.png, id=337, 154.5775pt x 202.7575pt>
 File: imagens/arch-hid.png Graphic file (type png)
 
 <use imagens/arch-hid.png>
-Package pdftex.def Info: imagens/arch-hid.png used on input line 599.
+Package pdftex.def Info: imagens/arch-hid.png used on input line 610.
 (pdftex.def)             Requested size: 142.26378pt x 186.6227pt.
 
-<imagens/arch-audio.png, id=327, 156.585pt x 195.73125pt>
+<imagens/arch-audio.png, id=339, 156.585pt x 195.73125pt>
 File: imagens/arch-audio.png Graphic file (type png)
 
 <use imagens/arch-audio.png>
-Package pdftex.def Info: imagens/arch-audio.png used on input line 611.
+Package pdftex.def Info: imagens/arch-audio.png used on input line 622.
 (pdftex.def)             Requested size: 142.26378pt x 177.83496pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [30pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.616 
+l.627 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.616 
+l.627 
        <./imagens/arch-phys.png> <./imagens/arch-hid.png>]
-<imagens/arch-network.png, id=335, 147.55125pt x 202.7575pt>
+<imagens/arch-network.png, id=347, 147.55125pt x 202.7575pt>
 File: imagens/arch-network.png Graphic file (type png)
 
 <use imagens/arch-network.png>
-Package pdftex.def Info: imagens/arch-network.png used on input line 628.
+Package pdftex.def Info: imagens/arch-network.png used on input line 639.
 (pdftex.def)             Requested size: 142.26378pt x 195.49579pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.633 
+l.644 
        <./imagens/arch-audio.png>]
-<imagens/arch-gameplay.png, id=343, 810.02625pt x 257.96375pt>
+<imagens/arch-gameplay.png, id=354, 810.02625pt x 257.96375pt>
 File: imagens/arch-gameplay.png Graphic file (type png)
 
 <use imagens/arch-gameplay.png>
-Package pdftex.def Info: imagens/arch-gameplay.png used on input line 640.
+Package pdftex.def Info: imagens/arch-gameplay.png used on input line 651.
 (pdftex.def)             Requested size: 483.69684pt x 154.04337pt.
 
-Overfull \hbox (28.69684pt too wide) in paragraph at lines 640--641
+Overfull \hbox (28.69684pt too wide) in paragraph at lines 651--652
  [][] 
  []
 
-<imagens/arch-heranca.png, id=345, 434.62375pt x 255.95625pt>
+<imagens/arch-heranca.png, id=356, 434.62375pt x 255.95625pt>
 File: imagens/arch-heranca.png Graphic file (type png)
 
 <use imagens/arch-heranca.png>
-Package pdftex.def Info: imagens/arch-heranca.png used on input line 653.
+Package pdftex.def Info: imagens/arch-heranca.png used on input line 664.
 (pdftex.def)             Requested size: 284.52756pt x 167.5725pt.
 
 Underfull \vbox (badness 1057) has occurred while \output is active []
 
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.658 
+l.669 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.658 
+l.669 
        <./imagens/arch-network.png> <./imagens/arch-gameplay.png>]
-<imagens/arch-comp.png, id=352, 426.59375pt x 334.24875pt>
+<imagens/arch-comp.png, id=363, 426.59375pt x 334.24875pt>
 File: imagens/arch-comp.png Graphic file (type png)
 
 <use imagens/arch-comp.png>
-Package pdftex.def Info: imagens/arch-comp.png used on input line 666.
+Package pdftex.def Info: imagens/arch-comp.png used on input line 677.
 (pdftex.def)             Requested size: 284.52756pt x 222.95094pt.
 
 Underfull \vbox (badness 1142) has occurred while \output is active []
 
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.676 
+l.687 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.676 
+l.687 
        <./imagens/arch-heranca.png> <./imagens/arch-comp.png>]
-<imagens/arch-game.png, id=360, 812.03375pt x 184.69pt>
+<imagens/arch-game.png, id=371, 812.03375pt x 184.69pt>
 File: imagens/arch-game.png Graphic file (type png)
 
 <use imagens/arch-game.png>
-Package pdftex.def Info: imagens/arch-game.png used on input line 680.
+Package pdftex.def Info: imagens/arch-game.png used on input line 691.
 (pdftex.def)             Requested size: 483.69684pt x 110.01167pt.
 
-Overfull \hbox (28.69684pt too wide) in paragraph at lines 680--681
+Overfull \hbox (28.69684pt too wide) in paragraph at lines 691--692
  [][] 
  []
 
-[32pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.702 \chapter
+l.713 \chapter
               {Pulsar Game Engine} \label{cap: desenvolvimento} <./imagens/arch
 -game.png>]
-<imagens/subengine-interface.png, id=368, 444.66125pt x 171.64125pt>
+<imagens/subengine-interface.png, id=379, 444.66125pt x 171.64125pt>
 File: imagens/subengine-interface.png Graphic file (type png)
 
 <use imagens/subengine-interface.png>
-Package pdftex.def Info: imagens/subengine-interface.png used on input line 729
+Package pdftex.def Info: imagens/subengine-interface.png used on input line 740
 .
 (pdftex.def)             Requested size: 341.43306pt x 131.79486pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [35
 
 ]
-<imagens/codigo-main.png, id=373, 569.12625pt x 379.4175pt>
+<imagens/codigo-main.png, id=385, 569.12625pt x 379.4175pt>
 File: imagens/codigo-main.png Graphic file (type png)
 
 <use imagens/codigo-main.png>
-Package pdftex.def Info: imagens/codigo-main.png used on input line 738.
+Package pdftex.def Info: imagens/codigo-main.png used on input line 749.
 (pdftex.def)             Requested size: 341.43306pt x 227.62909pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 18}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.760 \item \textit
+l.771 \item \textit
                    {Render}: Executado 60 vezes por segundo.pdfTeX warning (ext
 4): destination with the same identifier (name{figure.3.19}) has been already u
 sed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.760 \item \textit
+l.771 \item \textit
                    {Render}: Executado 60 vezes por segundo. <./imagens/subengi
-ne-interface.png> <./imagens/codigo-main.png>] [35]
-<imagens/gameloop.png, id=386, 494.84875pt x 642.4pt>
+ne-interface.png> <./imagens/codigo-main.png>] [37]
+<imagens/gameloop.png, id=397, 494.84875pt x 642.4pt>
 File: imagens/gameloop.png Graphic file (type png)
 
 <use imagens/gameloop.png>
-Package pdftex.def Info: imagens/gameloop.png used on input line 812.
+Package pdftex.def Info: imagens/gameloop.png used on input line 823.
 (pdftex.def)             Requested size: 341.43306pt x 443.23688pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-[37pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+ [38]
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.827 
+l.838 
        <./imagens/gameloop.png>]
-<imagens/update.png, id=398, 512.91624pt x 407.5225pt>
+<imagens/update.png, id=409, 512.91624pt x 407.5225pt>
 File: imagens/update.png Graphic file (type png)
 
 <use imagens/update.png>
-Package pdftex.def Info: imagens/update.png used on input line 831.
+Package pdftex.def Info: imagens/update.png used on input line 842.
 (pdftex.def)             Requested size: 341.43306pt x 271.27887pt.
- <imagens/render.png, id=400, 523.9575pt x 752.8125pt>
+ <imagens/render.png, id=411, 523.9575pt x 752.8125pt>
 File: imagens/render.png Graphic file (type png)
 
 <use imagens/render.png>
-Package pdftex.def Info: imagens/render.png used on input line 843.
+Package pdftex.def Info: imagens/render.png used on input line 854.
 (pdftex.def)             Requested size: 341.43306pt x 490.5744pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.848 
+l.859 
        <./imagens/update.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.854 
+l.865 
        <./imagens/render.png>]
-<imagens/estrutura-pastas.png, id=413, 314.17375pt x 327.2225pt>
+<imagens/estrutura-pastas.png, id=426, 314.17375pt x 327.2225pt>
 File: imagens/estrutura-pastas.png Graphic file (type png)
 
 <use imagens/estrutura-pastas.png>
-Package pdftex.def Info: imagens/estrutura-pastas.png used on input line 872.
+Package pdftex.def Info: imagens/estrutura-pastas.png used on input line 883.
 (pdftex.def)             Requested size: 341.43306pt x 355.6319pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-[41pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
-3}) has been already used, duplicate ignored
+ [42]
+<imagens/custom-scene.png, id=431, 729.72626pt x 655.44875pt>
+File: imagens/custom-scene.png Graphic file (type png)
+
+<use imagens/custom-scene.png>
+Package pdftex.def Info: imagens/custom-scene.png used on input line 892.
+(pdftex.def)             Requested size: 341.43306pt x 306.68077pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.884 \chapter
-              {Conclusão} \label{cap: conclusao} <./imagens/estrutura-pastas.p
-ng>] [42
+l.897 
+       <./imagens/estrutura-pastas.png>] [44pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.3.24}) has been already used, duplicate i
+gnored
 
-]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.904 \chapter
+              {Conclusão} \label{cap: conclusao} <./imagens/custom-scene.png>]
+
 (./Monografia - Desenvolvimento de um motor para criação de jogos em java.b
 bl
 (./Monografia - Desenvolvimento de um motor para criação de jogos em java.b
@@ -1531,7 +1569,9 @@ rf)
 \openout5 = `"Monografia - Desenvolvimento de um motor para criação de jogo
 s em java.brf"'.
 
- [43] [44
+ [45
+
+] [46
 
 ]
 
@@ -1544,7 +1584,7 @@ No file "Monografia - Desenvolvimento de um motor para criação de jogos em
 java".ind.
 
 AED: lastpage setting LastPage
-[45]
+[47]
 \tf@lof=\write6
 \openout6 = `"Monografia - Desenvolvimento de um motor para criação de jogo
 s em java.lof"'.
@@ -1553,54 +1593,48 @@ s em java.lof"'.
 \openout7 = `"Monografia - Desenvolvimento de um motor para criação de jogo
 s em java.toc"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 918.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 918.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 938.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 938.
 
 (./Monografia - Desenvolvimento de um motor para criação de jogos em java.a
 ux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 918.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 918.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 938.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 938.
 Package rerunfilecheck Info: File `"Monografia - Desenvolvimento de um motor pa
 ra criação de jogos em java".brf' has not changed.
-(rerunfilecheck)             Checksum: 2BB5BB9249062F3102763D0C07CAC1C6;292.
+(rerunfilecheck)             Checksum: EFBE9D9997F365B39CC7DCA1927276E1;292.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 918.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 938.
  ) 
 Here is how much of TeX's memory you used:
- 14153 strings out of 493089
- 213206 string characters out of 6134843
- 370241 words of memory out of 5000000
- 17092 multiletter control sequences out of 15000+600000
+ 14163 strings out of 493089
+ 213382 string characters out of 6134843
+ 370247 words of memory out of 5000000
+ 17097 multiletter control sequences out of 15000+600000
  94233 words of font info for 146 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,36p,1166b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{page.47} has been referenced but does not exist, re
-placed by a fixed one
-
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/loca
-l/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
-e1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
-m/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/
-lmsy10.pfb>
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/lo
+cal/texlive/2015/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/lm/lmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/lm/lmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmr7.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/lm/lmss17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/lm/lmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/l
+m/lmsy10.pfb>
 Output written on "Monografia - Desenvolvimento de um motor para criação de
- jogos em java.pdf" (47 pages, 1835048 bytes).
+ jogos em java.pdf" (49 pages, 1923685 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 576 compressed objects within 6 object streams
- 138 named destinations out of 1000 (max. 500000)
- 31748 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 692 PDF objects out of 1000 (max. 8388607)
+ 590 compressed objects within 6 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 31761 words of extra memory for PDF output out of 35830 (max. 10000000)
 

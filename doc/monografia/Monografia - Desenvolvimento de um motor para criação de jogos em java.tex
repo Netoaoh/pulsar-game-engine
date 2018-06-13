@@ -268,9 +268,18 @@
 % ---
 % Agradecimentos
 % ---
-%\begin{agradecimentos}
+\begin{agradecimentos}
+Agradeço primeiramente à Deus, por ter me concedido saúde, força e disposição para fazer a faculdade e o trabalho de final de curso. \\
 
-%\end{agradecimentos}
+Agradeço aos meus pais Joaquim e Arabela, que me deram apoio e incentivo em todos os momentos da minha vida.\\
+
+Agradeço a todos os professores que me proporcionaram o conhecimento para que eu pudesse chegar onde estou hoje. \\
+
+Agradeço a professora Daniele Colturato, que me deu todo o suporte com suas correções e orientações. \\
+
+Agradeço a universidade UNIP e a todos que direta ou indiretamente fizeram parte da minha formação.
+
+\end{agradecimentos}
 % ---
 
 % ---
@@ -303,8 +312,10 @@ Esta monografia apresenta o desenvolvimento de uma \textit{game engine} chamada 
 % resumo em inglês
 \begin{resumo}[Abstract]
  \begin{otherlanguage*}{english}
-Over the years, the advancement of technology and the expansion of the gaming market, it has become increasingly necessary to code reuse and automation routines more used in the development of games such as rendering, control of user input and management resources.
-Game Engines are software that take care of these routines by offering generic and reusable mechanisms to reduce production costs and simplify the tasks during the game development. This paper presents the development of a game engine called Pulsar Game Engine, which implements the basic systems necessary for the development of games in two dimensions of any kind, thus providing a easy customization tool for the development and expansion of more complex games. This paper also describes the operation of the basic and essential systems in a game engine, as well as the operation of the Pulsar Game Engine.
+ 
+ Over the years with the advancement of technology and the expansion of the gaming market, it has become increasingly necessary to reuse codes and automate routines that are more commonly used in game development such as rendering, user input control, and game management. resources.
+Game Engines are softwares that takes care of these routines, offering generic and reusable mechanisms to decrease the cost of production and simplify tasks during game development.
+This paper presents the development of a game engine called Pulsar Game Engine, which implements the basic systems needed to develop any kind of two-dimensional game, providing a tool for easy customization and expansion for game development more complex.
 
    \vspace{\onelineskip}
  
@@ -864,7 +875,7 @@ Caso seja enviado um comando de finalização todos os recursos alocados pela en
 
 \section{Utilização}
 
-A Pulsar Game Engine foi desenvolvida utilizando a ferramenta \textit{Gradle} para compilar e gerenciar as dependencias do projeto, desta forma para criar um novo jogo utilizando a \textit{engine}, basta utilizar o template disponível nos exemplos do repositório (figura \ref{figura:estrutura-pastas}), definir os objetos iniciais de cada cena disponível no jogo e caso necessário estender ou reimplementar os sistemas internos da \textit{engine}. Toda a lógica executada durante o jogo deve ser implementada em \textit{scripts} utilizando a linguagem JavaScript.
+A Pulsar Game Engine foi desenvolvida utilizando a ferramenta \textit{Gradle} para compilar e gerenciar as dependencias do projeto, desta forma para criar um novo jogo utilizando a \textit{engine}, basta utilizar o template disponível nos exemplos do repositório (figura \ref{figura:estrutura-pastas}), definir os objetos iniciais de cada cena disponível no jogo (figura \ref{figura:custom-scene}) e caso necessário estender ou reimplementar os sistemas internos da \textit{engine}. Toda a lógica executada durante o jogo deve ser implementada em \textit{scripts} utilizando a linguagem JavaScript.
 
 \begin{figure}[H]
 \centering
@@ -873,6 +884,15 @@ A Pulsar Game Engine foi desenvolvida utilizando a ferramenta \textit{Gradle} pa
 \\
 \small{Fonte: Elaborado pelo autor}
 \label{figura:estrutura-pastas}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Definição de objetos em uma cena}
+\includegraphics[width=12cm]{imagens/custom-scene.png}
+\\
+\small{Fonte: Elaborado pelo autor}
+\label{figura:custom-scene}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

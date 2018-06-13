@@ -3,51 +3,52 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{19}{chapter.1}
-\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{19}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objetivo}{19}{section.1.2}
-\contentsline {section}{\numberline {1.3}Objetivos Gerais}{19}{section.1.3}
-\contentsline {section}{\numberline {1.4}Objetivos Espec\IeC {\'\i }ficos}{20}{section.1.4}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{21}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motiva\IeC {\c c}\IeC {\~a}o}{21}{section.1.1}
+\contentsline {section}{\numberline {1.2}Objetivo}{21}{section.1.2}
+\contentsline {section}{\numberline {1.3}Objetivos Gerais}{21}{section.1.3}
+\contentsline {section}{\numberline {1.4}Objetivos Espec\IeC {\'\i }ficos}{22}{section.1.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Game Engine}}{21}{chapter.2}
-\contentsline {section}{\numberline {2.1}Arquitetura de uma Game Engine}{21}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}SDK e Middleware}{22}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Camada de Independ\IeC {\^e}ncia}{23}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}N\IeC {\'u}cleo do Sistema}{23}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Gerenciador de Recursos}{24}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Motor de Renderiza\IeC {\c c}\IeC {\~a}o}{24}{subsection.2.1.5}
-\contentsline {subsubsection}{\numberline {2.1.5.1}Renderiza\IeC {\c c}\IeC {\~a}o de Baixo N\IeC {\'\i }vel}{24}{subsubsection.2.1.5.1}
-\contentsline {subsubsection}{\numberline {2.1.5.2}OpenGL e Direct3D}{25}{subsubsection.2.1.5.2}
-\contentsline {subsubsection}{\numberline {2.1.5.3}Otimiza\IeC {\c c}\IeC {\~a}o de Cenas}{26}{subsubsection.2.1.5.3}
-\contentsline {subsubsection}{\numberline {2.1.5.4}Efeitos Visuais}{26}{subsubsection.2.1.5.4}
-\contentsline {subsubsection}{\numberline {2.1.5.5}Intera\IeC {\c c}\IeC {\~a}o com o Usu\IeC {\'a}rio}{27}{subsubsection.2.1.5.5}
-\contentsline {subsection}{\numberline {2.1.6}Motor de F\IeC {\'\i }sica}{27}{subsection.2.1.6}
-\contentsline {subsection}{\numberline {2.1.7}Dispositivos de Intera\IeC {\c c}\IeC {\~a}o Humana}{28}{subsection.2.1.7}
-\contentsline {subsection}{\numberline {2.1.8}Motor de \IeC {\'A}udio}{28}{subsection.2.1.8}
-\contentsline {subsubsection}{\numberline {2.1.8.1}OpenAL e DirectX Audio}{29}{subsubsection.2.1.8.1}
-\contentsline {subsection}{\numberline {2.1.9}Motor de Comunica\IeC {\c c}\IeC {\~a}o em Rede}{29}{subsection.2.1.9}
-\contentsline {subsection}{\numberline {2.1.10}Base de Gameplay}{30}{subsection.2.1.10}
-\contentsline {subsection}{\numberline {2.1.11}Sistemas Espec\IeC {\'\i }ficos para Jogos}{32}{subsection.2.1.11}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Game Engine}}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}Arquitetura de uma Game Engine}{23}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}SDK e Middleware}{24}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Camada de Independ\IeC {\^e}ncia}{25}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}N\IeC {\'u}cleo do Sistema}{25}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Gerenciador de Recursos}{26}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Motor de Renderiza\IeC {\c c}\IeC {\~a}o}{26}{subsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.5.1}Renderiza\IeC {\c c}\IeC {\~a}o de Baixo N\IeC {\'\i }vel}{26}{subsubsection.2.1.5.1}
+\contentsline {subsubsection}{\numberline {2.1.5.2}OpenGL e Direct3D}{27}{subsubsection.2.1.5.2}
+\contentsline {subsubsection}{\numberline {2.1.5.3}Otimiza\IeC {\c c}\IeC {\~a}o de Cenas}{28}{subsubsection.2.1.5.3}
+\contentsline {subsubsection}{\numberline {2.1.5.4}Efeitos Visuais}{28}{subsubsection.2.1.5.4}
+\contentsline {subsubsection}{\numberline {2.1.5.5}Intera\IeC {\c c}\IeC {\~a}o com o Usu\IeC {\'a}rio}{29}{subsubsection.2.1.5.5}
+\contentsline {subsection}{\numberline {2.1.6}Motor de F\IeC {\'\i }sica}{29}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}Dispositivos de Intera\IeC {\c c}\IeC {\~a}o Humana}{30}{subsection.2.1.7}
+\contentsline {subsection}{\numberline {2.1.8}Motor de \IeC {\'A}udio}{30}{subsection.2.1.8}
+\contentsline {subsubsection}{\numberline {2.1.8.1}OpenAL e DirectX Audio}{31}{subsubsection.2.1.8.1}
+\contentsline {subsection}{\numberline {2.1.9}Motor de Comunica\IeC {\c c}\IeC {\~a}o em Rede}{31}{subsection.2.1.9}
+\contentsline {subsection}{\numberline {2.1.10}Base de Gameplay}{32}{subsection.2.1.10}
+\contentsline {subsection}{\numberline {2.1.11}Sistemas Espec\IeC {\'\i }ficos para Jogos}{34}{subsection.2.1.11}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Pulsar Game Engine}}{33}{chapter.3}
-\contentsline {section}{\numberline {3.1}Projeto}{33}{section.3.1}
-\contentsline {section}{\numberline {3.2}Arquitetura}{33}{section.3.2}
-\contentsline {section}{\numberline {3.3}Componentes}{34}{section.3.3}
-\contentsline {section}{\numberline {3.4}L\IeC {\'o}gica em tempo de jogo}{35}{section.3.4}
-\contentsline {section}{\numberline {3.5}T\IeC {\'e}cnicas de Renderiza\IeC {\c c}\IeC {\~a}o}{36}{section.3.5}
-\contentsline {section}{\numberline {3.6}Fluxo de Execu\IeC {\c c}\IeC {\~a}o}{36}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Inicializa\IeC {\c c}\IeC {\~a}o}{37}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Atualiza\IeC {\c c}\IeC {\~a}o de entradas}{37}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Atualiza\IeC {\c c}\IeC {\~a}o de componentes}{38}{subsection.3.6.3}
-\contentsline {subsection}{\numberline {3.6.4}Renderiza\IeC {\c c}\IeC {\~a}o}{38}{subsection.3.6.4}
-\contentsline {subsection}{\numberline {3.6.5}P\IeC {\'o}s Renderiza\IeC {\c c}\IeC {\~a}o}{39}{subsection.3.6.5}
-\contentsline {subsection}{\numberline {3.6.6}Finaliza\IeC {\c c}\IeC {\~a}o do Frame}{40}{subsection.3.6.6}
-\contentsline {subsection}{\numberline {3.6.7}Finaliza\IeC {\c c}\IeC {\~a}o da Engine}{40}{subsection.3.6.7}
-\contentsline {section}{\numberline {3.7}Utiliza\IeC {\c c}\IeC {\~a}o}{40}{section.3.7}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Pulsar Game Engine}}{35}{chapter.3}
+\contentsline {section}{\numberline {3.1}Projeto}{35}{section.3.1}
+\contentsline {section}{\numberline {3.2}Arquitetura}{35}{section.3.2}
+\contentsline {section}{\numberline {3.3}Componentes}{36}{section.3.3}
+\contentsline {section}{\numberline {3.4}L\IeC {\'o}gica em tempo de jogo}{37}{section.3.4}
+\contentsline {section}{\numberline {3.5}T\IeC {\'e}cnicas de Renderiza\IeC {\c c}\IeC {\~a}o}{38}{section.3.5}
+\contentsline {section}{\numberline {3.6}Fluxo de Execu\IeC {\c c}\IeC {\~a}o}{38}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Inicializa\IeC {\c c}\IeC {\~a}o}{39}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Atualiza\IeC {\c c}\IeC {\~a}o de entradas}{39}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Atualiza\IeC {\c c}\IeC {\~a}o de componentes}{40}{subsection.3.6.3}
+\contentsline {subsection}{\numberline {3.6.4}Renderiza\IeC {\c c}\IeC {\~a}o}{40}{subsection.3.6.4}
+\contentsline {subsection}{\numberline {3.6.5}P\IeC {\'o}s Renderiza\IeC {\c c}\IeC {\~a}o}{41}{subsection.3.6.5}
+\contentsline {subsection}{\numberline {3.6.6}Finaliza\IeC {\c c}\IeC {\~a}o do Frame}{42}{subsection.3.6.6}
+\contentsline {subsection}{\numberline {3.6.7}Finaliza\IeC {\c c}\IeC {\~a}o da Engine}{42}{subsection.3.6.7}
+\contentsline {section}{\numberline {3.7}Utiliza\IeC {\c c}\IeC {\~a}o}{42}{section.3.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{43}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Conclus\IeC {\~a}o}}{45}{chapter.4}
 \vspace {\cftbeforechapterskip }
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{45}{section*.12}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{47}{section*.14}

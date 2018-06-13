@@ -29,19 +29,19 @@ public class PhysicsEngine extends IPhysicsEngine {
 	private World world = null;
 	private Set<Body> bodies = null;
 
-	//private OpenglDebugDraw debugDraw = new OpenglDebugDraw();
+	private OpenglDebugDraw debugDraw = new OpenglDebugDraw();
 
 	public PhysicsEngine() {
 		super();
 		bodies = new HashSet<Body>();
-		//debugDraw.setFlags(debugDraw.e_shapeBit | debugDraw.e_jointBit);
-		//world.setDebugDraw(debugDraw);
+		debugDraw.setFlags(debugDraw.e_shapeBit | debugDraw.e_jointBit);
+
 	}
 
 	public void initialize() {
 
 		world = new World(Convert.convertToVec2(Physics.gravity), false);
-
+		world.setDebugDraw(debugDraw);
 		/*BodyDef boxDef = new BodyDef();
 		boxDef.type = BodyType.STATIC;
 		boxDef.position.set(0, -50);
@@ -60,7 +60,7 @@ public class PhysicsEngine extends IPhysicsEngine {
 	public void fixedUpdate() {
 		world.step(/*Time.deltaTime*/ 1 / 30.0f, 8, 3);
 
-		//world.drawDebugData();
+		world.drawDebugData();
 	}
 
 	public void shutdown() {

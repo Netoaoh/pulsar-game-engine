@@ -58,7 +58,7 @@ var FileManager = Java.type("com.netoaoh.pulsar.engine.utils.FileManager");
 function Instantiate(object, position, rotation){
 	object.transform.setPos(position);
 	object.transform.setRot(rotation);
-	ScriptComponent.InstantiateGameObject(object);
+	GameObject.root.AddChild(object);
 }
 
 function GetGlobal(name){

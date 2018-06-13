@@ -77,32 +77,7 @@ public class ScriptComponent extends Component {
 		return globals.get(name);
 	}
 
-    public JSONObject serialize(){
-        JSONObject obj = new JSONObject();
-
-        try{
-            obj.put("name", name);
-            obj.put("script", filename);
-            obj.put("enabled", enabled);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
-        return obj;
-    }
-
-    public ScriptComponent deserialize(String str){
-        try {
-            JSONObject obj = new JSONObject(str);
-
-            name = obj.getString("name");
-            filename = obj.getString("filename");
-            script = new JSScript(ResourceManager.loadScript(obj.getString(filename)));
-            enabled = obj.getBoolean("enabled");
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-
-        return this;
-    }
+	public static void InstantiateGameObject(GameObject obj) {
+		GameObject.root.addChild(obj);
+	}
 }
